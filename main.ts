@@ -34,6 +34,8 @@ RotaryEncoder.init(DigitalPin.P5, DigitalPin.P6, DigitalPin.P7)
 OLED12864_I2C.clear()
 count = 0
 music.setBuiltInSpeakerEnabled(false)
+pins.analogWritePin(AnalogPin.P2, 0)
+pins.analogWritePin(AnalogPin.P3, 0)
 basic.forever(function () {
     if (count > 0) {
         pins.analogWritePin(AnalogPin.P2, count)
