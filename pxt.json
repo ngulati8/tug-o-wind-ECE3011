@@ -6,7 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "ky040": "github:tinkertanker/pxt-rotary-encoder-ky040#v1.2.1",
-        "OLED12864_I2C": "github:makecode-extensions/oled12864_i2c#v1.5.0"
+        "OLED12864_I2C": "github:makecode-extensions/oled12864_i2c#v1.5.0",
+        "servo": "*"
     },
     "files": [
         "main.blocks",
